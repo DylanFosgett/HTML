@@ -1,6 +1,6 @@
 
 var myFunction = function(){
-alert("Hello!");
+alert("These are words.");
 }
 
 var input = function(){
@@ -9,13 +9,21 @@ var newNums = numbers.split(',').map(function(item) {
   return parseInt(item, 10);
 
 });
-if(numbers != null){
-  alert("Your numbers are " + newNums + "! good job!")
+if(newNums != null){
+  alert("Your numbers are " + newNums + " good job!")
 }
 }
 
 
 var mean = function(){
-alert("the mean is " + numbers)
+alert("the mean is " + 3.5);
+}
+
+var median = function(){
+ alert("the median is " + 3.5)
+}
+
+var mode = function(){
+alert("the mode is " + NaN)
 
 }
