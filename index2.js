@@ -1,8 +1,4 @@
 
-var myFunction = function(){
-alert("These are words.");
-}
-
 var input = function(){
 var numbers = prompt("Please enter six numbers", "1, 2, 3, 4, 5, 6");
 var newNums = numbers.split(',').map(function(item) {
